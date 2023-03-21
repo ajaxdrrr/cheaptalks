@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&display=swap');
+
+* {
+
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+
+    height: 50px;
+    background-color: #F3BD33;
+
+}
+
+li {
+
+    list-style: none;
+    font-size: 1rem;
+
+}
+
+ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.nav-logo {
+
+    width: 70%;
+    min-width: 120px;
+    max-width: 250px;
+
+}
+
+.list-div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-primary {
+
+    color: #ffffff;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 18px;
+
+}
+
+.nav-list-group {
+
+    display: block;
+
+}
+
+.burger-container {
+
+    display: none;
+
+}
+
+.cheaptalks-nav-item {
+
+    color: #5e5e5e;
+    font-weight: 400;
+
+}
+
+@media (max-width: 1024px) { /* 280 - Galaxy Fold */
+    
+    .nav-list-group {
+
+        display: none;
+
+    }
+
+    .burger-container {
+
+        display: inline;
+    
+    }
+    
+
+}
+
+@media (max-width: 280px) { /* 280 - Galaxy Fold */
+    
+    .nav-logo {
+
+        width: 40%;
+        min-width: 120px;
+        max-width: 120px;
+    
+    }
+
+}
+
+/* nav -> burger @ 674 */
