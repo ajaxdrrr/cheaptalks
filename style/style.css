@@ -1,16 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+:root {
+
+    --cheaptalks: #ffc107;
+
+}
 
 * {
 
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 
 }
 
-nav {
+.sec-landing {
 
-    height: 50px;
-    background-color: #F3BD33;
+    height: 150vh;
+    max-height: 150vh;
+    background-image: url('../assets/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    /* background-color: #050663; */
+
+}
+
+.sec-container {
+
+    height: inherit;
+    background-color: #131212c2;
 
 }
 
@@ -38,6 +60,14 @@ ul {
 
 }
 
+.landing-header {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+}
+
 .list-div {
 
     display: flex;
@@ -45,8 +75,29 @@ ul {
     align-items: center;
 
 }
-
+/* cheaptalks */
 .button-primary {
+
+    color: #ffffff;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 18px;
+    font-weight: 500;
+
+}
+
+.button-primary:hover {
+
+    color: #ffffff;
+    border: 2px solid #333;
+    background-color: #333;
+    border-radius: 18px;
+    animation: ease-in-out .7s;
+    font-weight: 500;
+
+}
+
+.button-cheaptalks-bordered {
 
     color: #ffffff;
     border: 2px solid white;
@@ -54,6 +105,42 @@ ul {
     border-radius: 18px;
 
 }
+
+.button-cheaptalks-solid {
+
+    color: #ffffff;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 18px;
+
+}
+
+.btn-warning {
+
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.text-cheap {
+
+    color: var(--cheaptalks);
+    word-wrap: break-word;
+    text-align: center;
+
+}
+
+.text-cheap-h4 {
+
+    color: #fff;
+    word-wrap: break-word;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+/* cheaptalks */
 
 .nav-list-group {
 

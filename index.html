@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style/top-nav.css">
     <link rel="stylesheet" href="style/style.css">
+    <script src="js/cheaptalks.js"></script>
 
     <title>Cheaptalks</title>
 
@@ -21,35 +22,132 @@
     <!-- nav start -->
 
     <section class="top-nav">
+
         <div>
-          <img class="nav-logo" src="assets/logo.png" alt="">
+            <img class="nav-logo" src="assets/logo.png" alt="">
         </div>
+
         <input id="menu-toggle" type="checkbox" />
+
         <label class='menu-button-container' for="menu-toggle">
-        <div class='menu-button'></div>
-      </label>
+            <div class='menu-button'></div>
+        </label>
+
         <ul class="menu">
-          <li>One</li>
-          <li>Two</li>
-          <li>Three</li>
-          <li>Four</li>
-          <li>Five</li>
+
+            <li></li>
+            <li><a href="">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="">Works</a></li>
+            <li><a href="">Services</a></li>
+            <li class="hide-lg"><a href="#contact">Get in Touch</a></li>
+            <li>
+            <button class="button-primary hide-menu" onclick="button_action();">Get in Touch</button>
+            </li>
+
         </ul>
-      </section>
+
+    </section>
 
     <!-- nav end -->
 
     <!-- home start -->
+    
+        <section class="sec-landing" id="home">
+
+            <div class="sec-container d-flex flex-column align-item-center">
+
+                <div class="col-11  mt-5">
+
+                    <h1 class="landing-header">Transform Your Business with</h1>
+                    <h1 class="landing-header">Cutting-Edge <b class="text-cheap">IT Solutions</b>.</h1>
+                    <h3 class="text-cheap-h4 mt-5"><span class="text-cheap">Cheaptalks</span> is a digital agency that specialize in delivering bespoke</h3>
+                    <h3 class="text-cheap-h4">IT solutions that will revolutionize your business.</h3>
+                
+                </div>
+
+                <div class="header-container d-flex align-item-center justify-content-center p-3 gap-5">
+
+                    <div class="btn1-container">
+                        <button class="btn btn-warning">Get in touch</button>
+                    </div>
+                    <div class="btn2-container">
+                        <button class="btn btn-warning">View our services</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    
     <!-- home end -->
 
     <!-- about start -->
-    <!-- about start -->
+
+    <section class="sec-landing" id="about">
+
+        <div class="sec-container d-flex flex-column align-item-center p-5">
+
+            <div class="header-container m-5">
+
+                <h1 class="landing-header">About <b class="text-cheap">Us</b>.</h1>
+                <!-- <h3 class="text-cheap-h4 mt-5"><span class="text-cheap">Cheaptalks</span> is a digital agency that specialize in delivering bespoke</h3>
+                <h3 class="text-cheap-h4">IT solutions that will revolutionize your business.</h3> -->
+            
+            </div>
+
+            <!-- <div class="header-container d-flex align-item-center justify-content-center p-3 gap-5">
+
+                <div class="btn1-container">
+                    <button class="btn btn-warning">Get in touch</button>
+                </div>
+                <div class="btn2-container">
+                    <button class="btn btn-warning">View our services</button>
+                </div>
+
+            </div> -->
+
+        </div>
+
+    </section>
+
+    <!-- about end -->
 
     <!-- contact start -->
+
+    <section class="sec-landing" id="contact">
+
+        <div class="sec-container d-flex flex-column align-item-center p-5">
+
+            <div class="header-container m-5">
+
+                <h4 class="landing-header">Get in <b class="text-cheap">touch</b>.</h4>
+                <!-- <h3 class="text-cheap-h4 mt-5"><span class="text-cheap">Cheaptalks</span> is a digital agency that specialize in delivering bespoke</h3>
+                <h3 class="text-cheap-h4">IT solutions that will revolutionize your business.</h3> -->
+            
+            </div>
+
+            <!-- <div class="header-container d-flex align-item-center justify-content-center p-3 gap-5">
+
+                <div class="btn1-container">
+                    <button class="btn btn-warning">Get in touch</button>
+                </div>
+                <div class="btn2-container">
+                    <button class="btn btn-warning">View our services</button>
+                </div>
+
+            </div> -->
+
+        </div>
+
+    </section>
+
     <!-- contact end -->
 
     <!-- footer start -->
     <!-- footer end -->
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
