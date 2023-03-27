@@ -86,10 +86,13 @@ hiddenElements3.forEach((el) => observer3.observe(el));
 
 function myFunction() {
 	var x = document.getElementById("read");
+	var pp = document.getElementById("Mek");
 	if (x.style.display === "none") {
 	  x.style.display = "block";
+	  pp.innerText = "See Less"
 	} else {
 	  x.style.display = "none";
+	  pp.innerText = "Read More"
 	}
 }
 
