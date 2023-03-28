@@ -92,7 +92,7 @@ function myFunction() {
 	  pp.innerText = "See Less"
 	} else {
 	  x.style.display = "none";
-	  pp.innerText = "Read More"
+	  pp.innerText = "Read more"
 	}
 }
 
